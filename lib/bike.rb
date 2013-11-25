@@ -3,8 +3,7 @@
 class Bike
 
 	def initialize
-	@broken = false
-
+	fix
 	end
 
   	def break
@@ -12,7 +11,7 @@ class Bike
  	end
 
  	def fix
- 		@broken = false
+ 	@broken = false
  	end
 
   	def broken?
