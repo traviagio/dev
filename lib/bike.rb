@@ -2,14 +2,18 @@
 
 class Bike
 
-	# def initialize(status)
-	# @status = status
+	def initialize
+	@broken = false
 
-	# end
+	end
 
-  def broken?
-  	# @bike = bike
-  end
+  	def break
+  	@broken = true
+ 	end
+
+  	def broken?
+  	@broken 
+  	end
   
 end
 
