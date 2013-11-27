@@ -36,7 +36,7 @@ module BikeContainer
     bikes.reject {|bike| bike.broken? }
   end
 
-  def non_available_bikes
+  def broken_bikes
   	bikes.select {|bike| bike.broken? }
   end
 

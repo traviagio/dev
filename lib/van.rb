@@ -1,2 +1,4 @@
-# class Van < BikeContainer
-# end
+class Van
+	include BikeContainer
+	
+end

@@ -18,6 +18,7 @@ class DockingStation
  	def empty? 
  	 bikes.empty? ? true : false
  	end
+
 end
 
 
