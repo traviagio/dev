@@ -1,5 +1,3 @@
-
-
 class Bike
 
 	def initialize
@@ -17,7 +15,8 @@ class Bike
   	def broken?
   	@broken 
   	end
- 
+
+
 end
 
 

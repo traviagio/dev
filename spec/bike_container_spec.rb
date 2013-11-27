@@ -45,4 +45,13 @@ describe BikeContainer do
     holder.capacity.times { holder.dock(Bike.new) }
   end
 
+  it "should tell us if we're trying to release a bike which it doesnt have" do
+	bike1 = Bike.new
+	bike2 = Bike.new
+	holder.dock(bike1)
+	expect( lambda{holder.release(bike2)}).to raise_error('Bike does not exsist')
+  end
+
+
+
 end
